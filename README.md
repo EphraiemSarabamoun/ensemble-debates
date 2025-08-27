@@ -2,7 +2,7 @@
 
 A research project exploring how ensemble debates using local open-source language models can improve AI alignment outcomes compared to single-model approaches.
 
-## 🔬 Research Overview
+## Research Overview
 
 ### Objective
 Test whether combining diverse local LLMs in debate-style conversations produces better alignment outcomes than single models operating alone, making AI safety research more accessible and democratized.
@@ -12,7 +12,7 @@ Test whether combining diverse local LLMs in debate-style conversations produces
 - **Ensemble Diversity**: Combines different model sizes and specializations (reasoning, creativity, efficiency)
 - **Alignment Focus**: Specifically targets AI safety and alignment challenges through structured debates
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ensemble_debates/
@@ -30,7 +30,7 @@ ensemble_debates/
 └── requirements.txt             # Python dependencies
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 1. **Ollama installed** with the following models:
@@ -71,7 +71,7 @@ python run_experiments.py --full
 python run_experiments.py --evaluate-only results/experiment_results_TIMESTAMP.json
 ```
 
-## 🧠 Ensemble Configurations
+## Ensemble Configurations
 
 The project tests 5 different ensemble configurations:
 
@@ -83,7 +83,7 @@ The project tests 5 different ensemble configurations:
 | **Creative Mix** | DeepSeek-R1 14B | Mistral 7B | Phi3 3.8B | Mixed architectures |
 | **Reasoning Focused** | DeepSeek-R1 32B | DeepSeek-R1 14B | DeepSeek-R1 8B | Pure reasoning power |
 
-## 📊 Evaluation Methodology
+## Evaluation Methodology
 
 ### Debate Protocol
 1. **Proponent** argues FOR the position
@@ -103,7 +103,7 @@ The project tests 5 different ensemble configurations:
 - **Ensemble**: Different models for different roles
 - **Statistical Analysis**: Time, quality, consistency measurements
 
-## 🎯 AI Alignment Scenarios
+## AI Alignment Scenarios
 
 The project tests 20 scenarios across 10 categories:
 
@@ -118,7 +118,7 @@ The project tests 20 scenarios across 10 categories:
 - **Safety**: Precautionary principles and risk management
 - **Economics**: Automation impacts and policy responses
 
-## 📈 Expected Outcomes
+## Expected Outcomes
 
 ### Research Questions
 1. Do ensemble debates produce higher-quality alignment reasoning?
@@ -132,7 +132,7 @@ The project tests 20 scenarios across 10 categories:
 - **Accessibility**: Demonstrates viable local alternatives to expensive cloud APIs
 - **Reproducibility**: Results can be replicated on consumer hardware
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Custom Scenarios
 Add new scenarios to `data/alignment_scenarios.py`:
@@ -167,7 +167,7 @@ analyzer.create_performance_plots(df)
 report = analyzer.generate_comprehensive_report('my_report.md')
 ```
 
-## 📝 Research Applications
+## Research Applications
 
 ### Academic Research
 - AI safety and alignment studies
@@ -181,7 +181,7 @@ report = analyzer.generate_comprehensive_report('my_report.md')
 - Democratic AI governance tools
 - Bias detection and mitigation systems
 
-## 🤝 Contributing
+## Contributing
 
 1. **Fork the repository**
 2. **Add new scenarios** relevant to AI alignment
@@ -189,7 +189,7 @@ report = analyzer.generate_comprehensive_report('my_report.md')
 4. **Improve evaluation metrics**
 5. **Submit pull requests** with your improvements
 
-## 📄 License & Citation
+## License & Citation
 
 MIT License - See LICENSE file for details.
 
@@ -203,14 +203,14 @@ If you use this research in academic work, please cite:
 }
 ```
 
-## 🔍 Related Work
+## Related Work
 
 - Constitutional AI (Anthropic)
 - Debate protocols for AI safety (OpenAI)
 - Multi-agent systems for alignment
 - Local LLM optimization for safety tasks
 
-## 📞 Support
+## Support
 
 - **Issues**: Report bugs and feature requests via GitHub Issues
 - **Documentation**: See inline comments and docstrings

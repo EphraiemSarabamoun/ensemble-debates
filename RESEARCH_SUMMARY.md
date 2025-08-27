@@ -1,8 +1,8 @@
 # Research Summary: Ensemble Debates with Local LLMs for AI Alignment
 
-## 🎯 Project Completion Status
+## Project Completion Status
 
-### ✅ **COMPLETED COMPONENTS**
+### **COMPLETED COMPONENTS**
 
 #### 1. Core System Implementation
 - **Debate Protocol System** (`src/debate_protocol.py`)
@@ -54,7 +54,7 @@
 - **Research Framework**: Clear methodology and evaluation criteria
 - **Code Documentation**: Inline comments and docstrings throughout
 
-### 🔄 **CURRENTLY RUNNING**
+### **CURRENTLY RUNNING**
 
 #### Small Experiment (5 Scenarios)
 - **Status**: Running in background (bash_1)
@@ -62,7 +62,7 @@
 - **Expected Duration**: ~30-45 minutes for complete run
 - **Output**: Will generate results file with statistical analysis
 
-### 📊 **RESEARCH CONTRIBUTIONS**
+### **RESEARCH CONTRIBUTIONS**
 
 #### 1. **Democratized AI Alignment Research**
 - Proves viability of local models for alignment research
@@ -84,7 +84,7 @@
 - Tools for bias detection and safety assessment
 - Democratic AI governance applications
 
-### 🚀 **IMMEDIATE NEXT STEPS**
+### **IMMEDIATE NEXT STEPS**
 
 #### 1. **Complete Running Experiment**
 - Wait for small experiment to finish (~30 more minutes)
@@ -104,7 +104,7 @@ For more robust results:
 python run_experiments.py --full  # 15 scenarios
 ```
 
-### 📈 **EXPECTED OUTCOMES**
+### **EXPECTED OUTCOMES**
 
 Based on the system architecture and preliminary testing:
 
@@ -124,26 +124,26 @@ Based on the system architecture and preliminary testing:
 - **Practical**: Framework for deploying safer AI systems using local models
 - **Open Source**: Complete toolkit for community use and extension
 
-### 🏆 **PROJECT SUCCESS METRICS**
+### **PROJECT SUCCESS METRICS**
 
-#### ✅ **Already Achieved**:
+#### **Already Achieved**:
 - **System Implementation**: 100% complete and tested
 - **Dataset Creation**: 22 scenarios across key alignment challenges
 - **Model Integration**: Full compatibility with available local models
 - **Automation**: End-to-end experiment pipeline functional
 - **Documentation**: Comprehensive guides and code documentation
 
-#### 🔄 **In Progress**:
+#### **In Progress**:
 - **Empirical Results**: Experiment running, data collection underway
 - **Statistical Analysis**: Framework ready, pending data completion
 - **Performance Comparison**: Baseline vs ensemble evaluation in progress
 
-#### 📝 **Ready for Finalization**:
+#### **Ready for Finalization**:
 - **Research Report**: Analysis tools prepared, awaiting experimental data
 - **Visualizations**: Plotting functions implemented, ready to generate charts
 - **Publication**: Framework suitable for academic paper or technical report
 
-### 💡 **Innovation Highlights**
+### **Innovation Highlights**
 
 1. **First-of-its-kind**: Local LLM ensemble approach to alignment research
 2. **Practical Impact**: Democratizes AI safety research beyond big tech
@@ -151,7 +151,7 @@ Based on the system architecture and preliminary testing:
 4. **Open Source**: Complete toolkit available for community extension
 5. **Scalable**: Framework supports expansion to new models and scenarios
 
-### 🔮 **Future Extensions**
+### **Future Extensions**
 
 The completed system enables numerous research directions:
 - **Human Evaluation**: Add human judges alongside LLM evaluation
